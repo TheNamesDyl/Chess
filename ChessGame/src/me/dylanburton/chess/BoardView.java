@@ -73,18 +73,19 @@ public class BoardView implements ChangeListener, ActionListener{
 	}
 	public void updateView(){
 		try {
-			whitepawn = ImageIO.read(getClass().getResource("whitepawn.png"));
-			blackpawn = ImageIO.read(getClass().getResource("blackpawn.png"));
-			whitequeen = ImageIO.read(getClass().getResource("whitequeen.png"));
-			whiteknight = ImageIO.read(getClass().getResource("whiteknight.png"));
-			whitebishop = ImageIO.read(getClass().getResource("whitebishop.png"));
-			whiterook = ImageIO.read(getClass().getResource("whiterook.png"));
-			whiteking = ImageIO.read(getClass().getResource("whiteking.png"));
-			blackking = ImageIO.read(getClass().getResource("blackking.png"));
-			blackrook = ImageIO.read(getClass().getResource("blackrook.png"));
-			blackknight = ImageIO.read(getClass().getResource("blackknight.png"));
-			blackbishop = ImageIO.read(getClass().getResource("blackbishop.png"));
-			blackqueen = ImageIO.read(getClass().getResource("blackqueen.png"));
+			
+			whitepawn = ImageIO.read(getClass().getResource("/assets/whitepawn.png"));
+			blackpawn = ImageIO.read(getClass().getResource("/assets/blackpawn.png"));
+			whitequeen = ImageIO.read(getClass().getResource("/assets/whitequeen.png"));
+			whiteknight = ImageIO.read(getClass().getResource("/assets/whiteknight.png"));
+			whitebishop = ImageIO.read(getClass().getResource("/assets/whitebishop.png"));
+			whiterook = ImageIO.read(getClass().getResource("/assets/whiterook.png"));
+			whiteking = ImageIO.read(getClass().getResource("/assets/whiteking.png"));
+			blackking = ImageIO.read(getClass().getResource("/assets/blackking.png"));
+			blackrook = ImageIO.read(getClass().getResource("/assets/blackrook.png"));
+			blackknight = ImageIO.read(getClass().getResource("/assets/blackknight.png"));
+			blackbishop = ImageIO.read(getClass().getResource("/assets/blackbishop.png"));
+			blackqueen = ImageIO.read(getClass().getResource("/assets/blackqueen.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
