@@ -30,6 +30,5 @@ public class Controller implements ChangeListener, ActionListener{
 		Controller c = new Controller(m);
 		BoardView bv = new BoardView(m,c);
 	}
-	
 
 }
