@@ -25,7 +25,6 @@ public class Controller implements ChangeListener, ActionListener{
 		
 	}
 	
-	
 	public static void main(String[] args){
 		Model m = new Model(true);
 		Controller c = new Controller(m);
