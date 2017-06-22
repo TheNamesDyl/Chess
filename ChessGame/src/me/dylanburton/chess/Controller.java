@@ -22,7 +22,6 @@ public class Controller implements ChangeListener, ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 	
-		
 	}
 	
 	public static void main(String[] args){
